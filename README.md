@@ -2,13 +2,13 @@
 BSOD Diagnostic & Repair Utility: 
 -----------------------------------
 
-This script provides a centralized graphical interface to scan Windows Event Logs for common crash-related events (IDs 1001, 6008, 41) and provides one-click access to Windows built-in repair tools.
-
 <img width="981" height="685" alt="image" src="https://github.com/user-attachments/assets/0c8d5ce4-a9ce-49ff-9873-72eb2d14123d" />
 
 --------------
 Prerequisites
 --------------
+
+This script provides a centralized graphical interface to scan Windows Event Logs for common crash-related events (IDs 1001, 6008, 41) and provides one-click access to Windows built-in repair tools.
 
 Permissions: You must run this script as an Administrator. Without elevated privileges, the script will be unable to query system logs or initiate repair processes like DISM or sfc.
 Environment: PowerShell 5.1 or later.
